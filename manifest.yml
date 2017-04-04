@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: hhg
+  host: hhgh
+  disk_quota: 1024M
+  services:
+  - hhg-AdvancedMobileAccess
+  - hhg-imfpush
+  - hhg-cloudantNoSQLDB
+  - Twilio-rz
